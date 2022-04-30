@@ -28,7 +28,7 @@ export default function SearchMovies() {
                     className="input" 
                     type="text" 
                     name="query" 
-                    placeholder="i.e. Jurassic Park" 
+                    placeholder="i.e. Blade Runner" 
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
                     />
