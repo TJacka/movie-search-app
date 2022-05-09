@@ -3,8 +3,7 @@ import { createRoot } from 'react-dom/client';
 import './style.css';
 import SearchMovies from './SearchMovies';
 
-class Main extends React.Component {
-  render() {
+function Main() {
     return (
       <div className="container">
         <h1 className="title">Movie Search</h1>
@@ -12,8 +11,7 @@ class Main extends React.Component {
       </div>
     );
   }
-}
 
 const container = document.getElementById('root');
-const root = createRoot(container); // createRoot(container!) if you use TypeScript
+const root = createRoot(container); 
 root.render(<Main />);
